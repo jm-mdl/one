@@ -25,7 +25,7 @@ header {
 
 header input{
     border-radius: 0.3rem;
-    border: 1px solid #ddd;
+    border: 1px solid rgba(255,255,255,0.7);
     padding-left: 1rem;
     padding-top: 0.3rem;
     background: #24292F;
@@ -50,4 +50,8 @@ ul, a{
     align-items: start;
     gap: 1rem;
     font-family: sans-serif;
+}
+
+ul, a:hover{
+    color: rgba(255,255,255,0.7);
 }
