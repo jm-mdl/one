@@ -1,7 +1,38 @@
-.card {
-    width: 350px;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-footer {
-    background-color: aqua;
+.logo {
+    width: 3rem;
+}
+
+svg {
+    fill: aliceblue;
+}
+
+a svg:hover {
+    opacity: 70%;
+}
+
+header {
+    padding-left: 2rem;;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: #24292F;
+}
+
+header input{
+    border-radius: 0.3rem;
+    border: 1px solid #ddd;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    background: #24292F;
+}
+
+.one {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
