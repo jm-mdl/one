@@ -36,3 +36,18 @@ header input{
     align-items: center;
     gap: 1rem;
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul, a{
+    color:#fff;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    align-items: start;
+    gap: 1rem;
+    font-family: sans-serif;
+}
